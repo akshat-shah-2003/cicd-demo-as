@@ -1,5 +1,5 @@
 version: 0.2
-
+ 
 phases: 
     install:
         runtime-versions:
@@ -7,7 +7,7 @@ phases:
         commands:
             - echo "installing something"
     pre_build:
-        commands:
+        commands: 
             - printenv
             - echo "we are in the pre build phase"
     build:
@@ -20,5 +20,5 @@ phases:
             - echo "we are in the post build phase"
 artifacts:
     files:
-      - '**/*
-    name: webapp-artifacts
+      - '**/*'
+    name: webapp-artifacts  
